@@ -12,6 +12,7 @@ main {
 .chatBox{
   color: white;
   width: 50vw;
+  
 }
 
 input {
@@ -27,6 +28,7 @@ input {
 }
 section{
     display: flex;
+    padding-bottom: 12px;
 }
 
 button {
@@ -35,4 +37,18 @@ button {
     border-top-right-radius: 10px;
     border-left: 0;
     font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+    width: 100%;
+  
+    
+}
+li{
+    background-color: aquamarine;
+    color: rgb(45, 43, 43);
+    border-radius: 12px;
+    padding: 8px;
+    width: 90%;
 }
