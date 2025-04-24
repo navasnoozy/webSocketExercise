@@ -1,4 +1,7 @@
-body {
+body{
+    margin: 0;
+}
+main {
     background-color: black;
     display: flex;
     justify-content: center;
